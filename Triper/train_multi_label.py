@@ -63,7 +63,7 @@ def validate(args, model, type = 'single', test=False):
     
 
     # edgeindex are always in the form of y to x in the (2,n) matrix
-    ei_per2pro   = swap_rows(torch.tensor(np.load(args.data +f'val/edge_pro2per_allEdgeWithGreatorThanCount_0.npy'), dtype=torch.long ).T).cuda() #y,x fornat
+    ei_per2pro   = swap_rows(torch.tensor(np.load(args.data +f'val/ei_pro2per.npy'), dtype=torch.long ).T).cuda() #y,x fornat
     # ei_per2pro   = swap_rows(torch.tensor(np.load(args.data +f'val/edge_pro2per_edgeCountThreshold_{args.threshold}.npy'), dtype=torch.long ).T).cuda() #y,x fornat
     ei_pro2u     = (torch.tensor(np.load(args.data +'val/ei_pro2u.npy'), dtype=torch.long ).T).cuda()  #y,x fornat
     ei_u2pro     = (torch.tensor(np.load(args.data +'val/ei_u2pro.npy'), dtype=torch.long ).T).cuda()  #y,x fornat
@@ -337,7 +337,7 @@ if __name__ == '__main__':
     if not os.path.exists('logs/' + args.log):
         os.makedirs('logs/' + args.log)
 
-    os.system('cp train_multi_label_dummy.py ' +'logs/' + args.log +'/train_multi_label_dummy.py')
+    os.system('cp train_multi_label.py ' +'logs/' + args.log +'/train_multi_label_dummy.py')
     # os.system('cp models/GAT_baseline_torch/model_corr.py ' +'logs/' + args.log +'/model_corr.py')
     os.system('cp model_corr_multi_dummy.py ' +'logs/' + args.log +'/model_corr_multi_dummy.py')
     
@@ -399,7 +399,7 @@ if __name__ == '__main__':
     # edgeindex are always in the form of y to x in the (2,n) matrix
     # ei_per2pro   = swap_rows(torch.tensor(np.load(args.data +f'train/edge_pro2per_edgeCountThreshold_{args.threshold}.npy'), dtype=torch.long ).T).cuda() #y,x fornat
     # pdb.set_trace()
-    ei_per2pro   = swap_rows(torch.tensor(np.load(args.data +f'train/edge_pro2per_allEdgeWithGreatorThanCount_0.npy'), dtype=torch.long ).T).cuda() #y,x fornat
+    ei_per2pro   = swap_rows(torch.tensor(np.load(args.data +f'train/ei_pro2per.npy'), dtype=torch.long ).T).cuda() #y,x fornat
     
     ei_pro2u     = (torch.tensor(np.load(args.data +'train/ei_pro2u.npy'), dtype=torch.long ).T).cuda()  #y,x fornat
     ei_u2pro     = (torch.tensor(np.load(args.data +'train/ei_u2pro.npy'), dtype=torch.long ).T).cuda()  #y,x fornat
