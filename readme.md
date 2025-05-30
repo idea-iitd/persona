@@ -29,7 +29,7 @@ We provide details on the dataset at the above webpage.
 ##  We provide code for replicating the experimental results on the Amazon review dataset 
 
 1. **Create the environment using the yml file shared**
-2.          conda env create -f environment.yml
+            conda env create -f environment.yml
 3  **Jump into the folders to run the models by following the readme**:
     
     
