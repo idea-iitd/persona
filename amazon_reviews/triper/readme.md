@@ -18,4 +18,4 @@ python test.py --data [location of data] --weight [location to the weight] --typ
 **example**
 ```bash
 python test.py --data data/ --weight logs/log/params_at_epochXXX.pth  --type multi
-bash
+```
