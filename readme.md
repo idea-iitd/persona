@@ -1,7 +1,7 @@
 <div align="center">
 <h1> Persona Identification in E-Commerce with Scarce Labels and In-Context Graph Learning </h1>
 
-**ACK SIGKDD 2025**  
+**ACM SIGKDD 2025**  
 <a href='https://kshitijbhat.github.io/glidr/' style="margin-right: 20px;"><img src='https://img.shields.io/badge/Project Page-GLiDR-darkgreen' alt='Project Page'></a>
 <a href="https://arxiv.org/abs/2312.00068" style="margin-right: 20px;"><img src='https://img.shields.io/badge/Paper-arXiv-maroon' alt='arXiv page'></a>
 <a href="https://arxiv.org/abs/2312.00068" style="margin-right: 20px;"><img src='https://img.shields.io/badge/Paper-CvF-blue' alt='IEEE Xplore Paper'></a>
@@ -23,13 +23,13 @@
 
 ## Data
 Download the opensourced Amazon reviews data from this [link](https://github.com/idea-iitd/persona/blob/master/amazon_reviews/data.zip)
-We provide details on the dataset at the above webpage.
+We provide details on the dataset at the above webpage. <\br>
         ``` bash
                 unzip data.zip
         ```
 ##  We provide code for replicating the experimental results on the Amazon review dataset 
 
-1. **Create the environment using the yml file shared**
+1. **Create the environment using the yml file shared**<\br>
             ``` bash
            conda env create -f environment.yml
            ```
