@@ -30,7 +30,7 @@ We provide details on the dataset at the above webpage. <br/>
             ``` bash
            conda env create -f environment.yml
            ```
-   <br/>
+   
 2  **Jump into the folders to run the models by following the readme**:
     
     
