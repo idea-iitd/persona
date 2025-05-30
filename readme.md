@@ -22,12 +22,12 @@
 - [June 2025] Accepted at KDD'2025.
 
 ## Data
-Download the opensourced Amazon reviews data from this [link](https://github.com/idea-iitd/persona/blob/master/amazon_reviews/data.zip)
-We provide details on the dataset at the above webpage.
-unzip data.zip
+    Download the opensourced Amazon reviews data from this [link](https://github.com/idea-iitd/persona/blob/master/amazon_reviews/data.zip)
+    We provide details on the dataset at the above webpage.
+    unzip data.zip
 
-## 
-We provide code for replicating the experimental results on the Amazon review dataset 
+##  We provide code for replicating the experimental results on the Amazon review dataset 
+
     1. **Create the environment using the yml file shared**:
          conda env create -f environment.yml
     2. **Jump into the folders to run the models by following the readme**:
