@@ -7,10 +7,10 @@
 [Anjali Gupta](https://anjaliakg17.github.io/about/)\*,
 [Prashant Kumar](https://prashkmr.github.io)\*,
 [Aniket Mishra](https://www.linkedin.com/in/aniket-mishra-bab8a81b5),
-[Abhishekh Singh](https://www.linkedin.com/in/iasingh)
-[Surender Kumar](https://www.linkedin.com/in/surenderk)
-[Muthusamy Chelliah](https://www.linkedin.com/in/muthusamy-chelliah-28b3b0)
-[Abhijnan Chakraborty](https://cse.iitkgp.ac.in/~abhijnan/)
+[Abhishek Singh](https://www.linkedin.com/in/iasingh),
+[Surender Kumar](https://www.linkedin.com/in/surenderk),
+[Muthusamy Chelliah](https://www.linkedin.com/in/muthusamy-chelliah-28b3b0),
+[Abhijnan Chakraborty](https://cse.iitkgp.ac.in/~abhijnan/),
 [Sayan Ranu](https://www.cse.iitd.ac.in/~sayan/)<br/>
 </div>
 
