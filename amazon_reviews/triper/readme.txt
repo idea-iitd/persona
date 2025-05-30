@@ -1,18 +1,14 @@
-##You can recreate our Conda environment with
-conda env create -f environment.yml
-
-#Unzip data.zip folder for amazon-reviews data
-
-unzip data.zip
 
 
-#For training run
 
-
+## Training 
+``` bash
 python train_multi_label.py --data [location of data] --log [name of log folder] > train_log.txt
-
-#example
+  ```
+**example**
+```bash 
 python train_multi_label.py --data data/ --log log_v1 > train_log.txt
+```
 
 #Extract the best validation epoch from the log train_log.txt
 
