@@ -12,7 +12,7 @@ python train_multi_label.py --data data/ --log log_v1 > train_log.txt
 
 
 ## Testing
-**To download the pretrained model, click [here](kaggle.com/models/prashk1312/triper)**
+**To download the pretrained model, click [here](https://www.kaggle.com/models/prashk1312/triper)**
 ```bash
 python test.py --data [location of data] --weight [location to the weight] --type multi
 ```
