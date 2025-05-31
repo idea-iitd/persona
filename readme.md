@@ -1,5 +1,7 @@
 <div align="center">
 <h1> Persona Identification in E-Commerce with Scarce Labels and In-Context Graph Learning </h1>
+<a href="https://github.com/idea-iitd/persona" style="margin-right: 20px;"><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKhHxoSF4bKSPAYbxjAJbRjbaq13z03_ZvOg&s' alt='IEEE Xplore Paper'></a>
+
 
 **ACM SIGKDD 2025**  
 
