@@ -1,7 +1,7 @@
 ## Dataset
 The dataset is constructed based on publicly available data [1]:
 
-- 1,470 users were randomly sampled from the Amazon_Fashion category of the Amazon Reviews dataset, available at [https://amazon-reviews-2023.github.io/](https://amazon-reviews-2023.github.io/) [1].
+- 1,470 users who have reviewed at least 5 products were randomly sampled from the Amazon_Fashion category of the Amazon Reviews dataset, available at [https://amazon-reviews-2023.github.io/](https://amazon-reviews-2023.github.io/) [1].
 - These users collectively reviewed 12,404 products, resulting in a total of 15,127 user-product edges.
 - Each edge represents a user’s interaction (i.e., review) with a product, forming a bipartite graph between users and products.
 - Product features are provided in the dataset, while user features were randomly initialized.
