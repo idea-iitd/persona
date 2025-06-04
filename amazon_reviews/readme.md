@@ -9,8 +9,8 @@ The dataset is constructed based on publicly available data [1]:
 - A total of 6 personas exist for users in the dataset.
 
 The dataset consists of 
-- pe.npy - consists of products embeddings
-- lab.npy - labels for persona for each user
+- pe.npy -  products embeddings
+- lab.npy - persona labels for all users
 - ei_u2pro.npy - the edges from user to product, Note that the edges between user to product are undirected. (Refer Figure 2 in main paper)
 - ei_pro2per.npy - the edges from product to persona, Note that these edges are directed from product to persona. (Refer Figure 2 in main paper)
 - The dataset has a total of 1000 train users, 150 validation users and 306 test users.
