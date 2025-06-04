@@ -6,6 +6,14 @@ The dataset is constructed based on publicly available data [1]:
 - Each edge represents a user’s interaction (i.e., review) with a product, forming a bipartite graph between users and products.
 - Product features are provided in the dataset, which are further converted to one-hot product features, while user features were randomly initialized.
 - A directed edge is created from a product to a persona if the product has been purchased at least twice by users belonging to that persona.
+- A total of 6 personas exist for users in the dataset.
+
+The dataset consists of 
+- pe.npy - consists of products embeddings
+- lab.npy - labels for persona for each user
+- ei_u2pro.npy - the edges from user to product, Note that the edges between user to product are undirected. (Refer Figure 2 in main paper)
+- ei_pro2per.npy - the edges from product to persona, Note that these edges are directed from product to persona. (Refer Figure 2 in main paper)
+- The dataset has a total of 1000 train users, 150 validation users and 306 test users.
 
 ### Reference
 
